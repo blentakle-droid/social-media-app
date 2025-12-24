@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Posts</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="app">
+<textarea id="text" placeholder="What's on your mind?"></textarea>
+<br>
+<button id="postBtn">Post</button>
+<input type="file" id="imageInput">
+<p id="status"></p>
+
+<hr>
+
+<h2>Feed</h2>
+<div id="feed"></div>
+
+
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+<script>
+    firebase.initializeApp(
+        {
+            apiKey: "AIzaSyBQq3BdfJYUb4hVxmabhs897A0SHhYAB9o",
+            authDomain: "social-media-app-but-better.firebaseapp.com",
+            projectId: "social-media-app-but-better",
+            storageBucket: "social-media-app-but-better.appspot.com",
+            messagingSenderId: "965371996262",
+            appId: "1:965371996262:web:bb7b5113474fdfbe54a5a7"
+        }
+    );
+</script>
+<script src="posts.js"></script>
+    </body>
+</html>

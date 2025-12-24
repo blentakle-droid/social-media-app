@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.app {
+    max-width: 550px;
+    background-color:white;
+    border-radius: 3px;
+    padding:10px;
+}
+button {
+    background-color: lightblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:smaller;
+    border-radius: 2px;
+    padding: 5px;
+}
+input, textarea {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 100%;
+    padding: 5px;
+}
+ 

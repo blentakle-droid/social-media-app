@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Social Media Website</title>
+</head>
+<body>
+  <div class="app">
+<h2>Login and sign up</h2>
+<input type="email" id="email" placeholder="Email">
+<br></br>
+<input type="password" id="password" placeholder="password">
+<br></br>
+<button id="loginbtn">Login</button>
+<button id="signupbtn">Sign up</button>
+
+<p id="status"></p>
+</div>
+ <!-- Firebase COMPAT SDKs (old-style, beginner-friendly) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+
+
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBQq3BdfJYUb4hVxmabhs897A0SHhYAB9o",
+      authDomain: "social-media-app-but-better.firebaseapp.com",
+      projectId: "social-media-app-but-better",
+      storageBucket: "social-media-app-but-better.appspot.com",
+      messagingSenderId: "965371996262",
+      appId: "1:965371996262:web:bb7b5113474fdfbe54a5a7"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Your code LAST -->
+  <script src="script.js"></script>
+
+</body>
+</html>
